@@ -1,1 +1,70 @@
+# =========================
+# Xcode
+# =========================
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode build artifacts
+DerivedData/
+build/
+*.moved-aside
+*.xcworkspace/xcuserdata
+
+# =========================
+# Swift Package Manager
+# =========================
+.swiftpm/
+.build/
+
+# =========================
+# CocoaPods
+# =========================
+Pods/
+# Keep the Podfile and Podfile.lock
+!Podfile
+!Podfile.lock
+
+# =========================
+# Carthage
+# =========================
+Carthage/Build/
+
+# =========================
+# Kotlin Multiplatform (KMP)
+# =========================
+# Gradle caches
+.gradle/
+**/build/
+!gradle-wrapper.jar
+
+# Android (if part of KMP repo)
+local.properties
+*.iml
 .idea/
+
+# =========================
+# macOS files
+# =========================
+.DS_Store
+*.swp
+*.lock
+*.tmp
+
+# =========================
+# Fastlane (optional CI/CD)
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =========================
+# Other editor/IDE files
+# =========================
+.vscode/
+
+# Mac & other IDE
+.DS_Store
+.idea
