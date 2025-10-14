@@ -11,7 +11,12 @@ import SwiftUI
 struct KeywordBubbleApp: App {
     var body: some Scene {
         WindowGroup {
-            KeywordBubbleDefaultPadding(keyword: "hello", symbol: "leaf")
+            let keywords = ["chives", "fern-leaf lavender"]
+            VStack {
+                ForEach(keywords, id: \.self) { word in
+                    KeywordBubbleDefaultPadding(keyword: word, symbol: "leaf")
+                }
+            }
         }
     }
 }
